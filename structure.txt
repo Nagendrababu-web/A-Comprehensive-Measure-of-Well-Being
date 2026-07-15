@@ -1,0 +1,37 @@
+A-Comprehensive-Measure-of-Well-Being-HDI-Prediction
+│
+├── app.py
+├── train_model.py
+├── config.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── dataset/
+│      Human_Development_Data.csv
+│
+├── models/
+│      hdi_model.pkl
+│      label_encoder.pkl
+│
+├── templates/
+│      layout.html
+│      index.html
+│      result.html
+│      about.html
+│      contact.html
+│
+├── static/
+│      css/
+│           style.css
+│
+│      js/
+│           script.js
+│
+│      images/
+│
+└── utils/
+       preprocessing.py
+       evaluation.py
+       visualization.py
